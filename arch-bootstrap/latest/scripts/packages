@@ -1,0 +1,15 @@
+bash
+coreutils
+curl
+filesystem
+findutils
+gcc-libs
+glibc
+grep
+gzip
+pacman
+perl
+sed
+shadow
+tar
+xz
