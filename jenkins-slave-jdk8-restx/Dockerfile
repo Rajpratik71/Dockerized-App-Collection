@@ -12,7 +12,7 @@ RUN apt-get update
 #RUN apt-get dist-upgrade -q -y
 #RUN cat /etc/debian_version
 RUN apt-get -y install nodejs ruby2.4 ruby2.4-dev
-RUN gem install sass compass --no-ri --no-rdoc
+RUN gem install --no-document sass compass 
 # Install bower and grunt
 RUN npm install -g bower grunt grunt-cli
 # Install local grunt for tests

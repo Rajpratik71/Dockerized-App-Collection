@@ -17,7 +17,7 @@ RUN npm install grunt
 RUN apt-get -y install ruby ruby-dev make g++
 
 # Install compass
-RUN gem install sass compass --no-ri --no-rdoc
+RUN gem install --no-document sass compass 
 
 # Install imageMagick
 RUN apt-get -y install imagemagick

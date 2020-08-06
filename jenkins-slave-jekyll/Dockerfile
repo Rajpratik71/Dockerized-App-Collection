@@ -28,4 +28,4 @@ RUN npm install -g gulp && \
     npm install -g grunt-cli && \
     npm install -g bower
 
-RUN gem install jekyll rdiscount kramdown
+RUN gem install --no-document jekyll rdiscount kramdown
